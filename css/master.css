@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@font-face {
+    font-family: mehdiSoleimani;
+    src: url("../font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("opentype");
+}
+@font-face {
+    font-family: mehdi;
+    src: url("../font/Mrs_Saint_Delafield/MrsSaintDelafield-Regular.ttf") format("opentype");
+}
